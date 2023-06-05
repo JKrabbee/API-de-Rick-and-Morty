@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=VT323&display=swap" rel="stylesheet">
+    <title>Atividade Final de Módulo</title>
+  </head>
+
+  <body>
+    <div class="icon-rick-and-morty">
+        <img src="./src/img/icon.png" alt="Icon rick and morty" width="35px" />
+    </div>
+    <header>
+      <h1>API de Rick and Morty</h1>
+      <div class="search-input">
+        <input type="text" placeholder="Pesquisar" />
+        <button type="submit">
+          <img src="./src/img/search.png" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+    </main>
+      <div id="pagination">
+        <button id="previous">⇦</button>
+        <div class="carousel-container">
+          <ul id="pages"></ul>
+        </div>
+        <button id="next"> ⇨</button>
+      </div>
+      
+      <img src="./src/img/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="" class="imagem-rick-and-morty">
+
+    <footer>
+        <ul>
+            <li id="totalPersonagens"></li>
+            <li id="totalLocalizacao"></li>
+            <li id="totalEps"></li>
+        </ul>
+        <p>Desenvolvido por: João Krabbe em 2023</p>
+    </footer>
+
+    <script src="./src/js/paginacao.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./src/js/axios-config.js"></script>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
